@@ -1,6 +1,6 @@
-// Source : https://leetcode.com/problems/koko-eating-bananas/
+// Source : https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/
 // Author : Arpit Agarwal
-// Date   : 20/01/2022
+// Date   : 22/01/2022
 
 /*
 A shop is selling candies at a discount. For every two candies sold, the shop gives a third candy for free.
