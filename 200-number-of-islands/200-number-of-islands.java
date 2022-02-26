@@ -1,6 +1,6 @@
 class Solution {
-    int count = 0;
     public int numIslands(char[][] grid) {
+        int count = 0;
         for(int i=0;i<grid.length;i++)
             for(int j=0;j<grid[0].length;j++)
                 count+=convert(grid,i,j);
