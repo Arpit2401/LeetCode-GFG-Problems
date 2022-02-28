@@ -1,7 +1,5 @@
 class Solution {
     public int deleteAndEarn(int[] nums) {
-        if(nums.length==1)
-            return nums[0];
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
