@@ -5,11 +5,10 @@ class Solution {
         {
             a++;
             b--;
-            for(int j=0;j<mat[0].length;j++)
-            {
-                if((i==a&&j==a)||(i==a&&j==b))
-                    sum+=mat[i][j];
-            }
+            if(a!=b)
+                sum+=mat[a][a]+mat[a][b];
+            else
+                sum+=mat[a][a];
         }
         return sum;
     }
